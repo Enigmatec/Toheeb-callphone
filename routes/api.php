@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\User\RegisterController;
 use App\Http\Controllers\User\UserController;
 use Illuminate\Http\Request;
@@ -18,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('auth/login', LoginController::class)->name('auth.login');
+Route::post('auth/logout', LogoutController::class)->name('auth.logout');
 Route::post('users', RegisterController::class)->name('users');
 
 
