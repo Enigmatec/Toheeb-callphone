@@ -2,7 +2,7 @@
 
 Clone the repository-
 ```
-git clone git@github.com:Enigmatec/Toheeb-callphone.git
+git clone git@github.com:Enigmatec/toheeb-callphone.git
 ```
 
 Then cd into the folder with this command-
