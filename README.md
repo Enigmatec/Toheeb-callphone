@@ -1,24 +1,13 @@
-# Bank Demo Laravel API
-An Internal API for a fake financial Institution
-
-## What's this repo about
-
-An API(Sanctum) that perform basic bank operations and can be consumed by multiple frontends(Web, iOS, Android etc) 
-
-# Laravel Bank Demo
-
-A simple bank demo App with Laravel 8.7.
-
 ## Installation
 
 Clone the repository-
 ```
-git clone https://github.com/Enigmatec/bank-demo.git
+git clone git@github.com:Enigmatec/Toheeb-callphone.git
 ```
 
 Then cd into the folder with this command-
 ```
-cd bank-demo
+cd toheeb-callphone
 ```
 
 Then do a composer install
@@ -38,14 +27,9 @@ Then generate a key using this command
 php artisan key:generate
 ```
 
-Then create a database named `bank-demo` and then do a database migration using this command-
+Then create a database named `callphone_db` and then do a database migration using this command-
 ```
 php artisan migrate
-```
-
-To generate admin data, run this command
-```
-php artisan db:seed
 ```
 
 ## Run server
@@ -54,8 +38,8 @@ Run server using this command-
 ```
 php artisan serve
 ```
-## Post API Documentation Link
-https://documenter.getpostman.com/view/16200299/UVyn1JRN
+## Postman API Documentation Link
+https://documenter.getpostman.com/view/16200299/2s7YYr6ix7
 
 
 
