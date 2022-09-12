@@ -19,10 +19,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('auth/login', LoginController::class)->name('auth.login');
-Route::post('auth/logout', LogoutController::class)->name('auth.logout');
 Route::post('users', RegisterController::class)->name('users');
 
-
 Route::group(['middleware' => ['auth:sanctum']], function () {
+    Route::post('auth/logout', LogoutController::class)->name('auth.logout');
     Route::post('user/image', [UserController::class, 'uploadImage'])->name('user.image');
 });
